@@ -1,0 +1,43 @@
+.contactRequest{
+    min-height: 100vh;
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+.contactRequestMainContainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactRequestCardContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactRequestCard{
+    width: 20%;
+    height: 250px;
+    border: 2px solid yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+.contactRequestHead{
+    font-size: 32px;
+    text-align: center;
+    color: yellow;
+}
+.contactRequestButton{
+    background-color: yellow;
+    color: black;
+}

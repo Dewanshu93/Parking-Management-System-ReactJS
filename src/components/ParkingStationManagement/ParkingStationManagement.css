@@ -1,0 +1,127 @@
+*{
+    color: white;
+}
+.parkingStationManagement{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+.parkingStationManagementContainer{
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parkingStationManagementInputContainer{
+    height: auto;
+    width: 50%;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 20px;
+}
+.slotNumber{
+    font-size: 20px;
+}
+.selectCityOption{
+    color: black;
+    background-color: transparent;
+}
+.selectCity{
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+.newParkingStationInput{
+    padding-left: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 30px;
+}
+.parkingStationsContainer{
+    margin-top: 30px;
+    width: 100%;
+}
+.parkingSStationCard{
+    width: 100%;
+    border: 1px solid black;
+}
+.parkingStationNameHead{
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.slotHead{
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.slotContainer{
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    margin-bottom: 30px;
+    border: 2px solid yellow;
+    margin-right: 10px;
+}
+.slotPriceEditInput{
+    width: 40%;
+}
+.slotPriceEditInput{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.slotMainConatainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.addSlotInputCOntainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.slotDetailInput{
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-left: 20px;
+    color: white;
+}
+.addSlotButton{
+    margin-bottom: 20px;
+}
+.parkingStationManagementButton{
+    background-color: yellow;
+    color: black;
+
+}
+.parkingManagementHead{
+    color: yellow;
+    margin-bottom: 40px;
+    font-size: 42px;
+    text-align: center;
+}

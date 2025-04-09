@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f9;
+}
+
+.containerManageEmployee {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.managerContainer {
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.manageEmployeeHeader {
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.cardEmployee {
+    width: 30%;
+    background-color: #d4bf48;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cardEmployee:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.addNewEmployeeContainer {
+    width: 90%;
+    max-width: 400px;
+    background-color: #d4bf48;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    height: 47vh;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.addNewEmployeeButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    margin-top: 20px;
+}
+
+.newEmployeeInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+.addEmployeeButton {
+    background-color: #388e3c;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-containerEmployee {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #388e3c;
+}
+
+.button-remove {
+    background-color: #f44336;
+}
+
+.button-remove:hover {
+    background-color: #d32f2f;
+}
+
+.no-data {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .containerManageEmployee{
+        padding-left: 20px;
+    }
+    .managerContainer{
+        padding-top: 120px;
+    }
+    .addNewEmployeeContainer{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .addNewEmployeeButton{
+        height: 100px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cardEmployee {
+        width: 80%;
+    }
+    .button-containerEmployee {
+        flex-direction: column;
+    }
+    .button {
+        width: 100%;
+    }
+}
+

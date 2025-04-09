@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+}
+
+/* AboutUs Container */
+.aboutUsContainer {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../Images/f8a1ac51-6651-4868-8168-e5e61cb70ea8.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content Layout */
+.contentContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    overflow-x: scroll;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+/* About Section */
+.aboutContainer {
+    padding: 20px;
+    width: 30%;
+    text-align: center; /* Adjust for smaller screens */
+}
+
+/* Heading Style */
+.head10 {
+    text-align: end; /* Original alignment for larger screens */
+    font-size: 52px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Style */
+.para10 {
+    text-align: end; /* Original alignment for larger screens */
+    color: white;
+    font-size: 16px;
+}
+
+/* Responsive Styling for Mobile View */
+@media screen and (max-width: 768px) {
+    /* Adjust Content Layout */
+    .contentContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 100vh;
+        width: auto;
+    }
+
+    /* About Section Adjustments */
+    .aboutContainer {
+        width: 60%; /* Expand to full width */
+        margin-bottom: 20px; /* Add spacing between elements */
+    }
+
+    /* Heading Adjustments */
+    .head10 {
+        font-size: 36px; /* Scale down font size for smaller screens */
+        text-align: center; /* Center-align for readability */
+    }
+
+    /* Paragraph Adjustments */
+    .para10 {
+        font-size: 14px; /* Adjust font size for mobile readability */
+        text-align: center; /* Center-align text */
+    }
+    .aboutUsContainer{
+        height: 150vh;
+        width: auto;
+    }
+}

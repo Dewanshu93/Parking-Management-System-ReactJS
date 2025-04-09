@@ -1,0 +1,373 @@
+* {
+    font-family: sans-serif;
+}
+
+.testimonialContainer {
+    background-color: black;
+    height: auto;
+    width: 100vw;
+}
+
+.testimonialInternalContainer {
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.head15 {
+    font-size: 24px;
+    background-color: yellow;
+    font-weight: bolder;
+    border: 1px solid yellow;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.head16 {
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.para16 {
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.reviewMainContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviewCContainer1 {
+    background-color: rgb(249, 241, 226);
+    padding: 20px;
+    width: 30%;
+    min-height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.review1 {
+    background-color: wheat;
+    width: 180%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.reviewDashboard {
+    background-color: white;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.head19 {
+    font-size: 80px;
+    color: yellow;
+}
+
+.reviewDetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.para19 {
+    color: gray;
+    width: 100%;
+    text-align: start;
+    font-size: 14px;
+}
+.reviewContainer2{
+    width: 20%;
+    margin-left: 40px;
+}
+
+.hr2 {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.profileContainer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img10 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.profileNameContainer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.head20 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.para20 {
+    font-size: 14px;
+    color: gray;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn11 {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 45%;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.testimonialFooter {
+    height: auto;
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.testimonial1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 167px;
+}
+.brandName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(0, 0, 0,0.4);
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.brandHead{
+    color: yellow;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.socialMediaLink{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.kingHead{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.dialogueHead{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: thin;
+    color: white;
+}
+.img69 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container6999 {
+    width: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.testimonial2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 60%;
+}
+.testimonialLinks{
+    font-family: sans-serif;
+    color: rgb(214, 214, 214);
+}
+.testimonial2Head{
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.head69 {
+    font-family: sans-serif;
+    font-size: 36px;
+    color: white;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.socialMediaResponsive{
+
+}
+
+@media screen and (max-width: 768px) {
+    .testimonialFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 95%;
+        padding: 10px;
+    }
+    .socialMediaResponsive{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .testimonial1,
+    .testimonial2 {
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .dialogueHead{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .socialMediaLink {
+        width: auto;
+        justify-content: flex-start;
+        margin-right: 10px;
+    }
+
+    .testimonialLinks {
+        font-size: 14px;
+    }
+
+    .testimonial2Head {
+        font-size: 14px;
+        text-align: center;
+    }
+    .testimonialInternalContainer {
+        padding: 10px;
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 120px;
+        align-items: center;
+    }
+    .reviewContainer2{
+        width: 46%;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .reviewMainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .reviewCContainer1 {
+        padding: 10px;
+        width: 80%;
+    }
+
+    .review1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .img10 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .head19 {
+        font-size: 60px;
+    }
+
+    .para19 {
+        font-size: 12px;
+    }
+
+    .btn11 {
+        font-size: 12px;
+        padding: 8px;
+        width: 40%;
+    }
+
+    .img69 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .container6999 {
+        font-size: 14px;
+    }
+
+    .head69 {
+        font-size: 28px;
+    }
+    .reviewDashboard{
+        width: 88%;
+    }
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 74px;
+    }
+}

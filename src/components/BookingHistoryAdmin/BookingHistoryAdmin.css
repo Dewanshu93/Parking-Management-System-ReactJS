@@ -1,0 +1,24 @@
+.bookingHistoryAdmin{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+}
+.bookingHistoryAdminContainer{
+    padding-top: 120px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bookingHistoryAdminData{
+    width: 80%;
+    height: 100%;
+}
+.bookingHistoryAdminTable{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    height: 60%;
+}

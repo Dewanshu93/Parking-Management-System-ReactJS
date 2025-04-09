@@ -1,0 +1,171 @@
+* {
+    font-family: sans-serif;
+    color: black;
+}
+
+.planContainer {
+    background-image: url("Images/OIP\ \(1\).jpg");
+    background-size: cover;
+    height: auto;
+    background-color: black;
+    min-width: 100vw;
+}
+
+.planInternalContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.btn7 {
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.planDetailContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.planCardContainer {
+    height: auto;
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.head12 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+}
+
+.dolloarSign {
+    font-size: 23px;
+    color: black;
+    margin-right: 5px;
+}
+
+.head13 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.btn13 {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.para14 {
+    color: gray;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.unorderedList {
+    font-size: 14px;
+    margin-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.li1 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.btn14 {
+    margin-top: 15px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .planContainer {
+        background-size: cover;
+    }
+
+    .planInternalContainer {
+        padding-top: 129px;
+        align-items: center;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .btn7 {
+        width: 66%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .planDetailContainer {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .planCardContainer {
+        width: 67%;
+        padding: 10px;
+    }
+
+    .head12 {
+        font-size: 14px;
+    }
+
+    .head13 {
+        font-size: 47px;
+        margin-top: 12px;
+    }
+
+    .btn13, .btn14 {
+        width: 80%;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .para14 {
+        font-size: 12px;
+    }
+
+    .unorderedList {
+        font-size: 12px;
+        padding-left: 24px;
+    }
+
+    .li1 {
+        text-align: start;
+        margin-bottom: 5px;
+    }
+}

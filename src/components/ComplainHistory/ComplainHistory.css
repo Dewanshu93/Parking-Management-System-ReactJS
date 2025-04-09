@@ -1,0 +1,67 @@
+.complainHistory {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.complainHistoryMainCOntainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.complainHistoryContentContainer {
+    width: 90%; /* Adjusted for smaller screens */
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    display: flex;
+    justify-content: center; /* Center align cards */
+    align-items: center;
+    margin-top: 30px;
+    list-style: none;
+    gap: 20px; /* Added gap between cards */
+}
+
+.complainHistoryCard {
+    padding: 20px;
+    width: 100%; /* Make cards adapt to full width for smaller screens */
+    max-width: 300px; /* Limit the card width */
+    height: 280px; /* Allow height to adjust based on content */
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Add slight transparency for a modern look */
+    box-shadow: 0 4px 8px rgba(255, 255, 0, 0.2); /* Subtle shadow */
+}
+
+.complainHistoryHead {
+    font-size: 28px; /* Adjusted font size for smaller screens */
+    text-align: center;
+    color: yellow;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+    .complainHistoryContentContainer {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start; /* Further adjust container width for tablets */
+    }
+
+    .complainHistoryCard {
+        max-width: 250px; /* Reduce max width for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .complainHistoryHead {
+        font-size: 24px; /* Adjust heading font size */
+    }
+}
+

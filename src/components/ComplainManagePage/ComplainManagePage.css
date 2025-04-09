@@ -1,0 +1,105 @@
+/* Main container */
+.ComplainManagerContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background */
+.complainManagerContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+/* Header */
+.complainHeader {
+    font-family: sans-serif;
+    font-size: 42px;
+    color: yellow;
+    text-align: center;
+}
+
+/* Complaint cards container */
+.complainCardContainer {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap on small screens */
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+}
+
+/* Complaint details */
+.complainDetails {
+    color: white;
+}
+
+/* Individual complaint card */
+.complainCard {
+    min-height: 230px;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 0, 0.1); /* Light yellow background */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.complainCard:hover {
+    transform: scale(1.05);
+}
+
+/* Resolve button */
+.resolveButton {
+    color: black;
+    background-color: yellow;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.resolveButton:hover {
+    background-color: orange;
+}
+
+/* ✅ Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .complainHeader {
+        font-size: 28px; /* Smaller font for mobile */
+    }
+    .complainManagerContainer{
+        height: auto;
+    }
+    .ComplainManagerContainer{
+        padding-top: 80px;
+    }
+    .complainCardContainer {
+        flex-direction: column;  /* Stack cards vertically */
+        width: 60%;
+        align-items: center;
+    }
+
+    .complainCard {
+        width: 90%; /* Full width on mobile */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .resolveButton {
+        width: 100%; /* Full width button */
+        font-size: 14px;
+    }
+}

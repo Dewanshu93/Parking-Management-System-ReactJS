@@ -1,0 +1,142 @@
+.complainContainer {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    height: auto;
+}
+
+.complainMainContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.complainHeader {
+    font-family: sans-serif;
+    font-size: 160%;
+    color: yellow;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.complainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.selectionConatiner {
+    width: 100%;
+}
+
+.complainLabel {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c4ec10;
+    margin-bottom: 5px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    color: black;
+}
+
+.dropdown:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    background-color: #f9f9f9;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.submitButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.submitButton:hover {
+    background-color: #388e3c;
+}
+
+.submitButton:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .complainMainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .complainContainer{
+        width: 100vw;
+    }
+    .complainHeader {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .complainForm {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .dropdown, .textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .submitButton {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+

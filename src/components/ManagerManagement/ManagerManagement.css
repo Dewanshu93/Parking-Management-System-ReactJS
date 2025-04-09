@@ -1,0 +1,52 @@
+.managerManagement{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+.managerManagementContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.managerManagementHead{
+    color: yellow;
+    font-size: 32px;
+}
+.managerManagementInputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    height: 40%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 20px;
+}
+.managerManagementInput{
+    padding-left: 20px;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+.managerManagementTable{
+    width: 60%;
+    height: 30%;
+}
+.managerManagementRow{
+    color: white;
+}
+.managerManagementRowButtonContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}

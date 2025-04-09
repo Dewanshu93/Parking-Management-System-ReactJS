@@ -1,0 +1,74 @@
+.adminUserManangement{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.userManagementConatiner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.adminUserManagementHeader{
+    color: yellow;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.userManagementTable{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.userManagementMainTable{
+    width: 80%;
+    height: auto;
+    overflow-x: auto;
+}
+.addNewUserConatainer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 60px;
+    gap: 20px;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 20px;
+}
+.addNewUserHead{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.addNewUserInput{
+    padding-left: 10px;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .userManagementMainTable {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .userManagementTable{
+        width: 60%;
+    }
+    .addNewUserConatainer {
+        width: 90%;
+    }
+    .addNewUserHead {
+        font-size: 24px;
+    }
+    .addNewUserInput {
+        width: 100%;
+    }
+}

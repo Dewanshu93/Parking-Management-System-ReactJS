@@ -1,0 +1,153 @@
+/* General Styles */
+* {
+    font-family: sans-serif;
+}
+
+/* Fullscreen Background */
+.dashBoardBackground {
+    min-height: 150vh;
+    height: auto;
+    min-width: 100vw;
+    background-image: url("../Images/Most-Vulnerable-Concrete-Details-of-Parking-Garages-to-Keep-Watertight-980x460.jpg");
+    background-size: cover;
+}
+
+/* Button Styles */
+.btn2 {
+    background-color: yellow;
+    padding: 15px;
+    width: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: yellow;
+    color: red;
+    font-size: 18px;
+}
+
+/* Container Layout */
+.secondContainer {
+    padding-left: 60px;
+height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 120px;
+}
+
+/* Headings */
+.head4 {
+    font-size: 26px;
+    color: white;
+}
+
+.head5 {
+    font-size: 82px;
+    margin-top: 10px;
+    color: white;
+}
+
+.span1 {
+    color: yellow;
+}
+
+/* Paragraph Styling */
+.para3 {
+    width: 40%;
+    margin-top: 20px;
+    color: white;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+/* Booking Container */
+.bookNowConatainer {
+    width: 100%;
+    height: auto;
+}
+
+/* Subheading Style */
+.head6 {
+    font-size: 26px;
+    color: yellow;
+    padding: 20px;
+}
+
+/* Detail Item Layout */
+.detailItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Button Styling */
+.btn3 {
+    align-self: flex-start;
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    color: red;
+    transition: color 1s ease-in;
+    background-color: yellow;
+}
+
+/* Responsive Styles for Mobile View */
+@media screen and (max-width: 768px) {
+    /* Adjust Background */
+    .dashBoardBackground {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    /* Adjust Container */
+    .secondContainer {
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        width: 67%;
+    }
+
+    /* Headings */
+    .head4 {
+        font-size: 20px;
+    }
+
+    .head5 {
+        font-size: 48px; /* Reduce size for smaller screens */
+    }
+
+    /* Paragraph */
+    .para3 {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;/* Reduce margin spacing */
+    }
+
+    /* Buttons */
+    .btn2, .btn3 {
+        width: 100%; /* Full width for better usability */
+        padding: 12px; /* Adjust padding */
+        margin-top: 15px; /* Add spacing above buttons */
+    }
+
+    /* Detail Items */
+    .detailItem {
+        align-items: center; /* Center-align content for mobile */
+        justify-content: center;
+    }
+}

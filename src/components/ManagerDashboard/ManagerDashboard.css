@@ -1,0 +1,127 @@
+.container69 {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    margin: 0;
+    min-height: 100vh;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.managerHeader {
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: yellow;
+}
+
+.card-container699999 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card69 {
+    border: 1px solid yellow;
+    border-radius: 8px;
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 2px 2px 8px rgba(255, 255, 0, 0.2);
+    color: yellow;
+    height: auto;
+}
+
+.button69Manager {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.button69Manager:hover {
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.no-data {
+    font-size: 18px;
+    color: yellow;
+    text-align: center;
+}
+
+.para699 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.managerDashboardButtonConatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.addButton69{
+    width: 100%;
+    background-color: green;
+}
+.managerConatiner {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding-left: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card-container699999 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .para699{
+        text-align: start;
+    }
+    .card69 {
+        width: 78%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .managerDashboardButtonConatiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button69Manager {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .managerHeader {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,233 @@
+.mainContainerBooking {
+    width: 100vw;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    min-height: 100vh;
+    height: auto;
+    border-radius: 8px;
+}
+
+.inContainerMyBookings {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 135px;
+}
+
+.bookingList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80%;
+    justify-content: center;
+}
+
+.bookingCard {
+    background: linear-gradient(145deg, #ffeb3b, #f57c00);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 -4px 4px rgba(255, 255, 255, 0.05);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.bookingCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.bookingCard p {
+    font-size: 0.9rem;
+    margin: 8px 0;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.bookingActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bookingActions button {
+    background: linear-gradient(90deg, #ff9800, #ffeb3b);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bookingActions button:nth-child(2) {
+    background: linear-gradient(90deg, #f57c00, #ffc107);
+}
+
+.bookingActions button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #ff6f00, #fff176);
+}
+
+.bookingActions button:nth-child(2):hover {
+    background: linear-gradient(90deg, #e65100, #ffb74d);
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: linear-gradient(145deg, #ffd54f, #ffeb3b);
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(255, 255, 255, 0.1);
+    color: black;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.modalClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.modalClose:hover {
+    color: #ff6f00;
+}
+
+.modalContent label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+.modalContent input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background: rgba(255, 235, 59, 0.2);
+    color: black;
+    outline: none;
+}
+
+.modalContent button {
+    background: linear-gradient(145deg, #ffeb3b, #ffc107);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.modalContent button:hover {
+    background: linear-gradient(145deg, #fbc02d, #ffeb3b);
+    transform: scale(1.05);
+}
+
+.bookingCardInContainer {
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainerBooking {
+        height: auto;
+        width: 100vw;
+    }
+
+    .inContainerMyBookings {
+        padding-left: 10px;
+        min-height: 100vh;
+        padding-top: 126px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .bookingActions{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 19%;
+    }
+    .bookingCard {
+        width: 80%;
+        padding: 20px;
+        height: auto;
+    }
+    .editButton{
+        width: 50%;
+    }
+    .deleteButton{
+        width: 50%;
+    }
+    .bookingCard p {
+        font-size: 0.8rem;
+    }
+
+    .bookingActions button {
+        font-size: 0.7rem;
+        padding: 8px 12px;
+    }
+
+    .modalContent {
+        padding: 10px;
+    }
+
+    .modalContent label {
+        font-size: 0.8rem;
+    }
+
+    .modalContent input {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+
+    .modalContent button {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}

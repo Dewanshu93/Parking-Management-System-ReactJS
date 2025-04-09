@@ -1,0 +1,56 @@
+.complainManagementAdmin{
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+.adminComplainManagementContainer{
+    height: 100%;
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.complainAdminContainer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.adminComplainMangementHead{
+    font-size: 32px;
+    color: yellow;
+}
+.complaintCardAdmin{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    margin-right: 20px;
+}
+.adminComplainSelectStatus{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.adminComplainSelectStatusOption{
+    background-color: transparent;
+    color: black;
+}
+.adminComplainHead{
+    margin-bottom: 12px;
+    text-align: start;
+}
+.adminComplainButton{
+    background-color: yellow;
+    color: black;
+}

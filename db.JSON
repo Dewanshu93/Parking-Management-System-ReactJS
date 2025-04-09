@@ -1,0 +1,552 @@
+{
+  "users": [
+    {
+      "id": "618a",
+      "name": "Dewanshu Chakraborty",
+      "contact": "6263820648",
+      "email": "dewanshu.chakraborty@htcinc.com",
+      "username": "Dewanshu93",
+      "license": "UHGDHG",
+      "password": "mnbvc"
+    },
+    {
+      "id": "2ac7",
+      "name": "nandha",
+      "contact": "7894561230",
+      "email": "dewanshuchakraborty9090@gmail.com",
+      "username": "nandha",
+      "license": "4561327",
+      "password": "789456123"
+    },
+    {
+      "id": "1744028921711",
+      "name": "SUnny",
+      "contact": "cxc",
+      "email": "xcxccx",
+      "username": "xccxcx",
+      "license": "xccx"
+    }
+  ],
+  "contactUs": [
+    {
+      "id": "d909",
+      "name": "Dewanshu",
+      "email": "dewanshuchakraborty9090@gmail.com",
+      "message": "sadds",
+      "response": "No Responsetwrw4rew"
+    }
+  ],
+  "cityLocations": [
+    {
+      "id": "1",
+      "city": "Chennai",
+      "parkingStations": [
+        {
+          "name": "Marina Beach Parking",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 100
+            },
+            {
+              "slotNumber": 2,
+              "price": 90
+            },
+            {
+              "slotNumber": 3,
+              "price": 80
+            },
+            {
+              "slotNumber": 4,
+              "price": 70
+            },
+            {
+              "slotNumber": 5,
+              "price": 60
+            }
+          ],
+          "employees": [
+            {
+              "name": "John Doe",
+              "contact": "9123456789",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Jane Smith",
+              "contact": "9876543210",
+              "role": "Security Guard"
+            },
+            {
+              "name": "Alex Kim",
+              "contact": "9123456780",
+              "role": "Manager"
+            }
+          ]
+        },
+        {
+          "name": "Express Avenue Mall Parking",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 120
+            },
+            {
+              "slotNumber": 2,
+              "price": 110
+            },
+            {
+              "slotNumber": 3,
+              "price": 100
+            },
+            {
+              "slotNumber": 4,
+              "price": 90
+            },
+            {
+              "slotNumber": 5,
+              "price": 80
+            }
+          ],
+          "employees": [
+            {
+              "name": "Michael Lee",
+              "contact": "9456781230",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Emily Taylor",
+              "contact": "9998887776",
+              "role": "Security Guard"
+            },
+            {
+              "name": "John Harris",
+              "contact": "9223344556",
+              "role": "Manager"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "city": "Bangalore",
+      "parkingStations": [
+        {
+          "name": "MG Road Parking Lot",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 150
+            },
+            {
+              "slotNumber": 2,
+              "price": 140
+            },
+            {
+              "slotNumber": 3,
+              "price": 130
+            },
+            {
+              "slotNumber": 4,
+              "price": 120
+            },
+            {
+              "slotNumber": 5,
+              "price": 110
+            }
+          ],
+          "employees": [
+            {
+              "name": "Ravi Kumar",
+              "contact": "9485769232",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Sita Rani",
+              "contact": "9564789234",
+              "role": "Security Guard"
+            },
+            {
+              "name": "Pradeep Singh",
+              "contact": "9712345612",
+              "role": "Manager"
+            }
+          ]
+        },
+        {
+          "name": "Orion Mall Parking",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 160
+            },
+            {
+              "slotNumber": 2,
+              "price": 150
+            },
+            {
+              "slotNumber": 3,
+              "price": 140
+            },
+            {
+              "slotNumber": 4,
+              "price": 130
+            },
+            {
+              "slotNumber": 5,
+              "price": 120
+            }
+          ],
+          "employees": [
+            {
+              "name": "Rajesh Kumar",
+              "contact": "9871236547",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Anita Sharma",
+              "contact": "9987456123",
+              "role": "Security Guard"
+            },
+            {
+              "name": "Gaurav Mehta",
+              "contact": "9912345678",
+              "role": "Manager"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "city": "Mumbai",
+      "parkingStations": [
+        {
+          "name": "Gateway of India Parking",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 200
+            },
+            {
+              "slotNumber": 2,
+              "price": 190
+            },
+            {
+              "slotNumber": 3,
+              "price": 180
+            },
+            {
+              "slotNumber": 4,
+              "price": 170
+            },
+            {
+              "slotNumber": 5,
+              "price": 160
+            }
+          ],
+          "employees": [
+            {
+              "name": "Ashok Joshi",
+              "contact": "9876543210",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Sunita Rao",
+              "contact": "9123456789",
+              "role": "Security Guard"
+            },
+            {
+              "name": "Vikram Patil",
+              "contact": "9234567890",
+              "role": "Manager"
+            }
+          ]
+        },
+        {
+          "name": "Phoenix Palladium Mall Parking",
+          "slots": [
+            {
+              "slotNumber": 1,
+              "price": 210
+            },
+            {
+              "slotNumber": 2,
+              "price": 200
+            },
+            {
+              "slotNumber": 3,
+              "price": 190
+            },
+            {
+              "slotNumber": 4,
+              "price": 180
+            },
+            {
+              "slotNumber": 5,
+              "price": 170
+            }
+          ],
+          "employees": [
+            {
+              "name": "Lata Desai",
+              "contact": "8765432109",
+              "role": "Cleaner"
+            },
+            {
+              "name": "Rajiv Kumar",
+              "contact": "9801234567",
+              "role": "Security Guard"
+            },
+            {
+              "name": "Manoj Gupta",
+              "contact": "9123456781",
+              "role": "Manager"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bookingHistory": [
+    {
+      "id": "b06cpu",
+      "BookedBy": "Dewanshu93",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "1",
+      "checkInDate": "2025-03-28",
+      "checkInTime": "13:01",
+      "checkOutDate": "2025-03-29",
+      "checkOutTime": "13:01",
+      "totalPrice": 3600,
+      "status": "approved",
+      "payment": "Success",
+      "CheckedIn": true,
+      "CheckedOut": false
+    },
+    {
+      "id": "k3gf68",
+      "BookedBy": "Dewanshu93",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "2",
+      "checkInDate": "2025-03-28",
+      "checkInTime": "17:01",
+      "checkOutDate": "2025-03-29",
+      "checkOutTime": "17:01",
+      "totalPrice": 3360,
+      "status": "approved",
+      "payment": "Pending",
+      "CheckedIn": true,
+      "CheckedOut": false
+    },
+    {
+      "id": "g7ca3z",
+      "BookedBy": "Dewanshu93",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "1",
+      "checkInDate": "2025-03-29",
+      "checkInTime": "13:49",
+      "checkOutDate": "2025-03-30",
+      "checkOutTime": "13:49",
+      "totalPrice": 3600,
+      "status": "approved",
+      "payment": "Success",
+      "CheckedIn": true,
+      "CheckedOut": false
+    },
+    {
+      "id": "krp1b4",
+      "BookedBy": "Dewanshu93",
+      "city": "Chennai",
+      "parkingStation": "Marina Beach Parking",
+      "slot": "1",
+      "checkInDate": "2025-03-29",
+      "checkInTime": "14:04",
+      "checkOutDate": "2025-03-30",
+      "checkOutTime": "14:04",
+      "totalPrice": 2400,
+      "status": "Pending",
+      "payment": "Pending",
+      "CheckedIn": false,
+      "CheckedOut": false
+    },
+    {
+      "id": "36t56t",
+      "BookedBy": "manager_nanda",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "1",
+      "checkInDate": "2025-04-07",
+      "checkInTime": "17:38",
+      "checkOutDate": "2025-04-08",
+      "checkOutTime": "17:38",
+      "totalPrice": 3600,
+      "status": "Pending",
+      "payment": "Pending",
+      "CheckedIn": false,
+      "CheckedOut": false
+    },
+    {
+      "id": "g7ca3z",
+      "BookedBy": "Dewanshu93",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "1",
+      "checkInDate": "2025-03-29",
+      "checkInTime": "13:49",
+      "checkOutDate": "2025-03-30",
+      "checkOutTime": "13:49",
+      "totalPrice": 3600,
+      "status": "approved",
+      "payment": "Success",
+      "CheckedIn": true,
+      "CheckedOut": true
+    },
+    {
+      "id": "36t56t",
+      "BookedBy": "manager_nanda",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "slot": "1",
+      "checkInDate": "2025-04-07",
+      "checkInTime": "17:38",
+      "checkOutDate": "2025-04-08",
+      "checkOutTime": "17:38",
+      "totalPrice": 3600,
+      "status": "Pending",
+      "payment": "Pending",
+      "CheckedIn": false,
+      "CheckedOut": true
+    }
+  ],
+  "ratings": [
+    {
+      "id": "7479",
+      "username": "Dewanshu93",
+      "rating": 5,
+      "comment": "Absolutely fantastic service! Quick, smooth, and incredibly convenient. The staff were helpful, and the system was easy to use. Highly recommended for anyone seeking a hassle-free experience. Will definitely come back!",
+      "reviewer": {
+        "name": "Dewanshu",
+        "designation": "Software Engineer"
+      },
+      "date": "3/25/2025"
+    },
+    {
+      "id": "3fb5",
+      "username": "Dewanshu93",
+      "rating": 5,
+      "comment": "sadibasdh asdhgujbasdm asdhijbadsm adiusb sadhg ajsduhi dass dashijasdb j uasdb asdhidsajbb b hbiasdbj asdb sadb asduhias ",
+      "reviewer": {
+        "name": "Rishi",
+        "designation": "Java Developer"
+      },
+      "date": "3/25/2025"
+    }
+  ],
+  "adminDetails": [
+    {
+      "username": "Dewanshu93",
+      "password": "mnbvc",
+      "id": "5034"
+    },
+    {
+      "username": "Himanshu93",
+      "password": "mnbvcx",
+      "id": "fd97"
+    },
+    {
+      "username": "weqrrfewf",
+      "password": "1234",
+      "id": "1744029119658"
+    }
+  ],
+  "managers": [
+    {
+      "username": "Sonali93",
+      "password": "mnbvc",
+      "city": "Bangalore",
+      "parkingStationName": "MG Road Parking Lot",
+      "id": "1",
+      "isLoggedIn": true
+    },
+    {
+      "id": "2",
+      "username": "Madhav93",
+      "password": "mnbvc",
+      "city": "Chennai",
+      "isLoggedIn": false,
+      "parkingStationName": "Marina Beach Parking"
+    }
+  ],
+  "complains": [
+    {
+      "id": "4f86",
+      "customerName": "Dewanshu Chakraborty",
+      "username": "Dewanshu93",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "type": "employee",
+      "complainAgainst": "Ravi Kumar",
+      "description": "Not cleaning well",
+      "status": "Resolved",
+      "managerResponse": "Action Taken"
+    },
+    {
+      "id": "53f0",
+      "username": "Dewanshu93",
+      "customerName": "Dewanshu Chakraborty",
+      "city": "Chennai",
+      "parkingStation": "Marina Beach Parking",
+      "type": "employee",
+      "complainAgainst": "John Doe",
+      "description": "new complaint",
+      "status": "Not Resolved",
+      "managerResponse": "No Action"
+    },
+    {
+      "id": "662f",
+      "username": "Dewanshu93",
+      "customerName": "Dewanshu Chakraborty",
+      "city": "Chennai",
+      "parkingStation": "Marina Beach Parking",
+      "type": "employee",
+      "complainAgainst": "John Doe",
+      "description": "sdsd",
+      "status": "Not Resolved",
+      "managerResponse": "No Action"
+    },
+    {
+      "id": "4ead",
+      "username": "Dewanshu93",
+      "customerName": "Dewanshu Chakraborty",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "type": "employee",
+      "complainAgainst": "Ravi Kumar",
+      "description": "Stealing Behaviour",
+      "status": "Not Resolved",
+      "managerResponse": "Action Taken"
+    },
+    {
+      "id": "89b8",
+      "city": "Chennai",
+      "parkingStation": "Marina Beach Parking",
+      "type": "employee",
+      "complainAgainst": "Jane Smith",
+      "description": "dssd",
+      "status": "Not Resolved"
+    },
+    {
+      "id": "a155",
+      "city": "Bangalore",
+      "parkingStation": "MG Road Parking Lot",
+      "type": "slot",
+      "complainAgainst": "Slot 1",
+      "description": "jwhdkjh",
+      "status": "Not Resolved"
+    }
+  ]
+}
